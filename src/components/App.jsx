@@ -1,5 +1,7 @@
 import Profile from "./task1/components/Profile"
+import Statistics from "./task2/components/Statistics"
 import userData from "./task1/utils/user.json";
+import statsData from "./task2/utils/data.json";
 
 export const App = () => {
   return (
@@ -11,6 +13,12 @@ export const App = () => {
         avatar={userData.avatar}
         stats={userData.stats}
       />
+
+      <Statistics 
+        title="Upload Stats"  
+        stats={statsData}
+      />
+
     </div>
   );
 };
