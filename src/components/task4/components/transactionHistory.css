@@ -1,0 +1,22 @@
+.transaction-history-head-row{
+    background-color: #18aac4;
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+    height: 35px;
+}
+
+.transaction-history{
+  margin-bottom: 25px;
+}
+
+.transaction-row:nth-child(even){
+    background-color: rgba(188,196,204,0.214);
+}
+
+.transaction-row-td{
+    text-align: center;
+    font-size: 15px;
+    width: 250px;
+    height: 35px;
+}

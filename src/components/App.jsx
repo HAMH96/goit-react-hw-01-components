@@ -7,6 +7,15 @@ import friendsData from './task3/utils/friends.json';
 import transactionsHistoryData from "./task4/utils/transactions.json";
 import TransactionHistory from "./task4/components/TransactionHistory";
 
+const styleTest = {
+  height: '70vh',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  fontSize: 40,
+  color: '#010101',
+};
+
 export const App = () => {
   return (
     <div>

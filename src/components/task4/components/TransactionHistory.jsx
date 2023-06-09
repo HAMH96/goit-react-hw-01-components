@@ -7,15 +7,13 @@ export const TransactionHistory = ({ items }) => {
     <section>
       <table className="transaction-history">
         <thead>
-          <tr>
+          <tr className="transaction-history-head-row">
             <th>Type</th>
             <th>Amount</th>
             <th>Currency</th>
           </tr>
         </thead>
-        <tbody>
-          {items.map(Transaction)}
-        </tbody>
+        <tbody>{items.map(Transaction)}</tbody>
       </table>
     </section>
   );
